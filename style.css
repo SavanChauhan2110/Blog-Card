@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body , html{
+    height: 100%;
+    font-family: "Figtree", sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color:hsl(47, 88%, 63%); 
+}
+.content{
+  height: auto;
+  width: 30%;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: 10px 10px 0px -3px rgba(0,0,0,0.75);
+
+}
+.inner-content{
+   width: 90%;
+   margin: 20px auto 10px;
+   height: auto;
+}
+    /************ img *************/
+.img img{
+    width:100%;
+    border-radius: 15px;
+}
+  
+    /************* btn *************/
+.btn{
+    margin: 15px 0px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.btn button{
+    padding: 5px 10px;
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: hsl(0, 0%, 7%);
+}    
+
+/************** heading **************/
+.heading{
+    margin: 20px 0px;
+}
+.heading h1{
+    font-weight: 800;
+    font-size: 25px;
+    color: hsl(0, 0%, 7%);
+}
+
+/************** about **************/
+
+.about p{
+    color:hsl(0, 0%, 50%);
+}
+
+/************** mypic **************/
+
+.mypic{
+    margin: 25px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.mypic img{
+    width: 30px;
+}
+
+.mypic p{
+    font-weight: 600;
+    color: hsl(0, 0%, 7%);
+}
+
+  /************** media quary **************/
+
+  @media screen and (max-width:1095px) {
+      .content{
+          width: 40%;
+      }
+  }
+
+  @media screen and (max-width:830px) {
+      .content{
+          width: 50%;
+      }
+  }
+  @media screen and (max-width:830px) {
+      .content{
+          width: 50%;
+      }
+  }
+  @media screen and (max-width:375px) {
+      .content{
+          width: 95%;
+      }
+  }
